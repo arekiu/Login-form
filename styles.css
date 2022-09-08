@@ -29,7 +29,7 @@
     cursor: pointer;
 }
 
-.google-btn:hover {
+.google-btn:hover , .twitter-btn:hover{
     opacity: 0.6;
 }
 
@@ -38,10 +38,34 @@
     background-color: white;
     height: 35px;
     border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn picture img {
+    width: 90%;
 }
 
 .google-btn span {
     color: white;
     font-weight: 500;
     padding: 15px;
+}
+
+.twitter-btn {
+    width: 39px;
+    background-color: rgb(223, 219, 219);
+    height: 39px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.twitter-btn picture img {
+    width: 95%;
 }
